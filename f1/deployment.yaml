@@ -1,7 +1,7 @@
 apiVersion : apps/v1beta1
 kind: Deployment
 metadata:
-  name: 'hello-world-oq6'
+  name: 'hello-world-oq7'
 spec:
   replicas: 1
   template:
