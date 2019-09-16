@@ -1,7 +1,7 @@
 apiVersion : v1
 kind: Pod
 metadata:
-  name: 'hello-world-pod-40'
+  name: 'hello-world-pod-zx'
 spec:
     containers:
     - name: 'hello-world'
