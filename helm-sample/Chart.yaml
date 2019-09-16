@@ -1,0 +1,5 @@
+name: mychartsample
+description: Using helm chart to deploy to a Kubernetes cluster
+version: 0.1.0
+home: http://localhost/DefaultCollection
+appVersion: 3.3
