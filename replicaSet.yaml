@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: ReplicaSet
+metadata:
+  name: 'hello-world-replica'
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: 'hello-world-replica'
+  template:
+    metadata:
+      labels:
+        app: 'hello-world-replica'
+    spec:
+      containers:
+        - name: 'hello-world'
+          image: 'nidabasregistry.azurecr.io/hello-world:v106' 
+          ports:
+          - containerPort: 8181
