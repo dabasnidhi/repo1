@@ -1,7 +1,7 @@
 apiVersion : apps/v1
 kind: ReplicaSet
 metadata:
-  name: 'hello-world-replica'
+  name: 'hello-world-replica-1'
 spec:
   replicas: 1
   selector:
